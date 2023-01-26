@@ -12,8 +12,8 @@ import logging
 from datetime import datetime
 from telethon.tl.types import ChannelParticipantsAdmins , UserStatusRecently ,UserStatusOnline , UserStatusOffline
 from telethon.tl.types import ChatParticipantCreator, ChatParticipantAdmin, ChannelParticipantCreator
-api_id = 9411854
-api_hash = '499c76606cefdeadd4b1ece84a5a9932'
+api_id = 0
+api_hash = ''
 
 logging.basicConfig(level=logging.INFO, filename=f"{datetime.today().strftime('%d-%m-%Y')}.log",filemode='a+',format="%(asctime)s %(levelname)s %(message)s")
 time_delay = [0,1]
